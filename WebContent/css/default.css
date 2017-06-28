@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+.header-parallax {
+	width: 100%;
+	height: 60vh;
+	color: white;
+	padding: 0px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.navbar {
+	margin-bottom: 0px;
+	background-color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: black;
+}
+
+footer {
+	margin-top: 50px;
+}
+
+footer a {
+	color: black;
+}
+
+#header-quem-somos {
+	background-image: url('../img/harley.jpg');
+}
+
+#header-contato {
+	background-image: url('../img/contato.png')
+}
+
+.title-page {
+	font-family: 'Bebas';
+	text-align: center;
+	font-weight: 600;
+}
+
+.subs-page {
+	font-family: 'Roboto';
+	text-align: center;
+}
+
+.center-inside {
+	display: -ms-flex;
+	display: -webkit-flex;
+	display: flex;
+	-ms-align-items: center;
+	-webkit-align-items: center;
+	align-items: center;
+	-ms-justify-content: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+}
+
+.list-footer-first {
+	font-weight: bold;
+}
+
+.padding-txt {
+	padding: 10px;
+}
+
+/* fonts faces */
+@font-face {
+	font-family: 'Bebas';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Bebas Neue'), url('../fonts/BebasNeue.otf') format('otf');
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Roboto-Regular'), url('../fonts/Roboto-Regular.ttf')
+		format('ttf');
+}
+
+/* media screens */
+@media screen and (max-width: 390px) {
+	#header-quem-somos {
+		background-image: url('../img/mobile/harley.jpg');
+	}
+	#header-contato {
+		background-image: url('../img/mobile/contato.png');
+	}
+	.header-parallax {
+		background-attachment: scroll;
+		background-size: cover;
+	}
+}
+
+/* animação fadeIn */
+
+@-webkit-keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; } 
+}
+@-moz-keyframes fadeIn {
+	0% { opacity: 0;}
+	100% { opacity: 1; }
+}
+@-o-keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+}
+@keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+}
+
+.fadeIn {
+	-webkit-animation: fadeIn 1s ease-in-out;
+	-moz-animation: fadeIn 1s ease-in-out;
+	-o-animation: fadeIn 1s ease-in-out;
+	animation: fadeIn 1s ease-in-out;
+}

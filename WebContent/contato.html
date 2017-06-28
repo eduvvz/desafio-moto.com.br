@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="portuguese">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet"
+	href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/default.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<title>MOTO.com.br</title>
+</head>
+
+<body class="fadeIn">
+	<nav class="navbar navbar-default navbar-custom navbar-static-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target="#menu">
+					<span class="sr-only">Menu</span> Menu <i class="fa fa-bars"></i>
+				</button>
+				<a class="navbar-brand center-inside" href="#"> <img
+					class="img-responsive" alt="logo moto.com.br"
+					src="img/logo-moto.png">
+				</a>
+			</div>
+			<div class="collapse navbar-collapse" id="menu">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="quem-somos.html">Quem somos</a></li>
+					<li><a href="contato.html">Contato</a></li>
+					<li class="dropdown"><a href="#" class="dropdown-toggle"
+						data-toggle="dropdown" role="button" aria-haspopup="true"
+						aria-expanded="false">Shopping <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Para sua motocicleta</a></li>
+							<li><a href="#">Capacetes</a></li>
+							<li><a href="#">Casual</a></li>
+							<li><a href="#">Lifestyle</a></li>
+						</ul></li>
+					<li><a href="#"><span class="glyphicon glyphicon-log-in"
+							aria-hidden="true"></span> Login</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="jumbotron header-parallax center-inside"
+		id="header-contato">
+		<div class="container">
+			<div class="col-md-12">
+				<h1 class="title-page">Contato</h1>
+			</div>
+			<div class="col-md-12">
+				<p class="subs-page">Entre em contato conosco.</p>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<hr>
+		<div class="col-md-6">
+			<h1 class="title-page">4002-5910</h1>
+			<p class="subs-page">Central de vendas, fidelidade e serviços.</p>
+		</div>
+		<div class="col-md-6">
+			<h1 class="title-page">4052-5010</h1>
+			<p class="subs-page">Ouvidoria, para sugestões e critícas.</p>
+		</div>
+	</div>
+	<div class="container">
+		<hr>
+	</div>
+	<br>
+	<div class="container">
+		<div class="col-md-3"></div>
+		<div class="col-md-6">
+			<form id="formExemplo" data-toggle="validator" role="form">
+				<div class="form-group">
+					<label for="txtNome" class="control-label">Nome</label> <input
+						id="txtNome" class="form-control" placeholder="Digite seu Nome..."
+						type="text">
+				</div>
+				<div class="form-group">
+					<label for="txtSobrenome" class="control-label">Sobrenome</label> <input
+						id="txtSobrenome" class="form-control"
+						placeholder="Digite seu Sobrenome..." type="text">
+				</div>
+				<div class="form-group">
+					<label for="slctEstado">Selecione seu estado</label> <select
+						class="form-control" id="slctEstado">
+						<option value="0"></option>
+						<option value="1">São Paulo</option>
+						<option value="2">Rio de janeiro</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="slctCidade">Selecione sua cidade</label> <select
+						class="form-control" id="slctCidade" disabled>
+					</select>
+				</div>
+				<div class="form-group">
+					<button type="button" id="btnContato"
+						class="btn btn-secondary btn-block">Enviar</button>
+				</div>
+			</form>
+		</div>
+		<div class="col-md-3"></div>
+	</div>
+	<footer class="container text-center">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="col-md-3">
+					<ul class="list-unstyled">
+						<li class="list-footer-first">Informações</li>
+					</ul>
+					<ul class="nav nav-pills nav-stacked">
+						<li><a href="#">Sobre nós</a></li>
+						<li><a href="#">Contato</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<ul class="list-unstyled">
+						<li class="list-footer-first">Notícias</li>
+					</ul>
+					<ul class="nav nav-pills nav-stacked">
+						<li><a href="#">Colunistas</a></li>
+						<li><a href="#">Acontece</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<ul class="list-unstyled">
+						<li class="list-footer-first">Vender</li>
+					</ul>
+					<ul class="nav nav-pills nav-stacked">
+						<li><a href="#">Meus anúncios</a></li>
+						<li><a href="#">Cadastre-se</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<ul class="list-unstyled">
+						<li class="list-footer-first">Revendedor</li>
+					</ul>
+					<ul class="nav nav-pills nav-stacked">
+						<li><a href="#">Anuncie</a></li>
+						<li><a href="#">Cadastre-se</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12">
+				<ul class="nav nav-pills nav-justified">
+					<li><a href="/">© 2017 MOTO.com.br</a></li>
+					<li><a href="#">Termos de serviço</a></li>
+				</ul>
+			</div>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="col-lg-12">
+				<ul class="list-inline">
+					<li><img src="img/icon/fb.png" alt="facebook"></li>
+					<li><img src="img/icon/gg.png" alt="google plus"></li>
+					<li><img src="img/icon/ig.png" alt="instagram"></li>
+					<li><img src="img/icon/tt.png" alt="twitter"></li>
+					<li><img src="img/icon/yb.png" alt="youtube"></li>
+					<li><img src="img/icon/loc.png" alt="localização"></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	<div class="modal fade" id="modalSucess">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h3 class="modal-title">Contato enviado!</h3>
+					<button type="button" class="close" data-dismiss="modal"
+						aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>Assim que possível entraremos em contato.</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary"
+						data-dismiss="modal">Fechar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="modalError">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h3 class="modal-title">Os campos não estão corretos</h3>
+					<button type="button" class="close" data-dismiss="modal"
+						aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>Por favor, todos campos devem estar preenchidos.</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary"
+						data-dismiss="modal">Fechar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/formContato.js"></script>
+</body>
+
+</html>
